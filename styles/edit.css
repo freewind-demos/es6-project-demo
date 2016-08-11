@@ -15,10 +15,26 @@ body{
     color: #ffffff;
 }
 
+.header .login{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+.login li a:link,.login li a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.login li a:hover,.login li a:active{
+    text-decoration: none;
+    color: #00b3ee;
+}
+
 ul.menu{
-    /*display: inline-block;*/
+    display: inline-block;
     width: 430px;
-    margin: 0 auto;
+    margin-left: 200px;
 }
 
 .menu li+li{
@@ -32,7 +48,7 @@ ul.menu{
 
 .menu li a:hover,.menu li a:active{
     text-decoration: none;
-    color: #c6ddff;
+    color: #00b3ee;
 }
 
 .wrapper{
@@ -43,9 +59,18 @@ ul.menu{
 
 #text-body{
     position: relative;
-    height: 300px;
     border: 1px solid #ccc;
     border-radius: 2px;
+    height: 200px;
+    outline: 0;
+    font-size: 12px;
+    word-wrap: break-word;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#text-body span{
+    border: none;
 }
 
 div.upload{
