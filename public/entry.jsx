@@ -1,15 +1,16 @@
-import Hello from './hello.jsx';
+import Mainbody from './hello.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import $ from 'jquery';
+require('jquery');
+require("bootstrap-webpack");
+require('../styles/edit.css');
 
 ReactDOM.render(
-  <Hello />,
-  document.getElementById("content")
+    <div>
+      <Mainbody/>
+    </div>,
+    document.getElementById("mainbody")
 );
-
-// use jquery
-console.log($('#content').text());
 
 // Notice!!!
 // Following is required to make reloading happen

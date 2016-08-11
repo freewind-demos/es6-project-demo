@@ -18,7 +18,33 @@ module.exports = {
       query: {
         presets: ['es2015', 'react']
       }
-    }]
+    },
+      {
+        test:/\.css$/,
+        exclude:/node_modules/,
+        loader:'style!css'
+      },
+      {
+        test: /\.(woff|woff2)$/,
+        loader: "url-loader?limit=10000&mimetype=application/font-woff"
+      },
+      {
+        test: /\.ttf$/,
+        loader: "url?limit=10000&mimetype=application/octet-stream"
+      },
+      {
+        test: /\.eot$/,
+        loader: "file"
+      },
+      {
+        test: /\.svg$/,
+        loader: "url?limit=10000&mimetype=image/svg+xml"
+      },
+      {
+        test: require.resolve("jquery"),
+        loader: "expose?$!expose?jQuery"
+      }
+    ]
   },
   plugins: [
     // Webpack 1.0
