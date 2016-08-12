@@ -8,12 +8,12 @@ require("bootstrap-webpack");
 require('../styles/edit.css');
 
 ReactDOM.render((
-    <Router history={hashHistory}>
-        <Route path='/' component={Mainbody}/>
-        <Route path='/share' component={Share}/>
-    </Router>
+  <Router history={hashHistory}>
+    <Route path='/' component={Mainbody}/>
+    <Route path='/share' component={Share}/>
+  </Router>
 ), document.getElementById('mainbody'))
 
 if (module.hot) {
-    module.hot.accept();
+  module.hot.accept();
 }
