@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router';
+require('../css/deliveryAndBookStyle.css');
 
 class Delivery extends React.Component{
     render(){
@@ -32,12 +34,10 @@ class Delivery extends React.Component{
                 </div>
                 <div className="bottom common">
                     <input className="form-control" type="text" placeholder="我要发布" />
-                    <button className="btn-link" type="button">发送</button>
+                    <button className="btn-link" type="button"><Link to="/deliveryPage">发送</Link></button>
                 </div>
             </div>
         )
     }
 }
-export default {
-    Delivery
-};
+export default Delivery;

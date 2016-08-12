@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router';
 
 class InformModule extends React.Component {
     render() {
@@ -18,7 +19,7 @@ class InformModule extends React.Component {
                                required="required"/>
                     </div>
                     <div className="form-group">
-                        <button type="submit" className="btn btn-default">提交</button>
+                        <button type="submit" className="btn btn-default"><Link to="/homePage">提交</Link></button>
                         <button type="button" className="btn btn-default">修改</button>
                     </div>
                 </form>
