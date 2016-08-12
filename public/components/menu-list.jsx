@@ -8,7 +8,7 @@ class MenuList extends React.Component {
         <ul className="list-inline menu">
           <li><Link to="#">Home</Link></li>
           <li><Link to="#">Share</Link></li>
-          <li><Link to="#">News</Link></li>
+          <li><Link to="/news">News</Link></li>
           <li><Link to="#">Recommendation</Link></li>
         </ul>
         <div className="login">
