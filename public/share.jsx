@@ -1,20 +1,20 @@
 import React from 'react';
 
-class Menulist extends React.Component{
-    render(){
-        return(
+class Menulist extends React.Component {
+    render() {
+        return (
             <header className="header">
                 <ul className="list-inline menu">
-                    <li><a href="edit.html">Home</a></li>
-                    <li><a href="#share">Share</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Recommendation</a></li>
+                    <li><Link to="#">Home</Link></li>
+                    <li><Link to="#">Share</Link></li>
+                    <li><Link to="#">News</Link></li>
+                    <li><Link to="#">Recommendation</Link></li>
                 </ul>
                 <div className="login">
                     <ul className="list-inline">
-                        <li><a href="#">登录</a></li>
-                        <li><a href="#">注册</a></li>
-                        <li><a href="#">+</a></li>
+                        <li><Link to="#">登录</Link></li>
+                        <li><Link to="#">注册</Link></li>
+                        <li><Link to="#">+</Link></li>
                     </ul>
                 </div>
             </header>
@@ -22,14 +22,14 @@ class Menulist extends React.Component{
     }
 }
 
-class Article extends React.Component{
-    render(){
+class Article extends React.Component {
+    render() {
         return (
             <div className="container-fluid wrapper">
                 <div className="row">
                     <div className="col-xs-5">
                         <h3 className="article-head">匆匆</h3>
-                        <img src="../images/kuotuiku.jpg"/>
+                        <img src="./images/kuotuiku.jpg"/>
                     </div>
                     <div className="col-xs-5 col-xs-offset-2 side"></div>
                 </div>
@@ -38,9 +38,9 @@ class Article extends React.Component{
     }
 }
 
-class Share extends React.Component{
-    render(){
-        return(
+class Share extends React.Component {
+    render() {
+        return (
             <div>
                 <Menulist/>
                 <Article/>
