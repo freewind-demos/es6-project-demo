@@ -1,4 +1,4 @@
-import MenuList from './menulist.jsx';
+import MenuList from './menu-list.jsx';
 import React from 'react';
 
 class Article extends React.Component {

@@ -1,4 +1,4 @@
-import MenuList from './menulist.jsx';
+import MenuList from './menu-list.jsx';
 import React from 'react';
 import {Link} from 'react-router';
 
