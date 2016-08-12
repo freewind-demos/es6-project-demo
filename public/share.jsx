@@ -22,37 +22,31 @@ class Menulist extends React.Component{
     }
 }
 
-class Editor extends React.Component{
-    render(){
-        return(
-            <div className="container-fluid wrapper">
-                <form>
-                    <div className="form-group">
-                        <label htmlFor="title">标题：</label>
-                        <input type="text" id="title" placeholder="请在此输入标题" required/>
-                    </div>
-                    <label htmlFor="text-body">内容：</label>
-                    <div id="text-body">
-                        <div className="upload">
-                        </div>
-                        <div className="p-body" contentEditable="true">在此输入正文</div>
-                    </div>
-                    <button className="submit">发布</button>
-                </form>
-            </div>
-        )
-    }
-}
-
-class Mainbody extends React.Component{
+class Article extends React.Component{
     render(){
         return (
-            <div>
-                <Menulist/>
-                <Editor/>
+            <div className="container-fluid wrapper">
+                <div className="row">
+                    <div className="col-xs-5">
+                        <h3 className="article-head">匆匆</h3>
+                        <img src="../images/kuotuiku.jpg"/>
+                    </div>
+                    <div className="col-xs-5 col-xs-offset-2 side"></div>
+                </div>
             </div>
         )
     }
 }
 
-export default Mainbody;
+class Share extends React.Component{
+    render(){
+        return(
+            <div>
+                <Menulist/>
+                <Article/>
+            </div>
+        )
+    }
+}
+
+export default Share;
