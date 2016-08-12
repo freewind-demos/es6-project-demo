@@ -1,11 +1,12 @@
-import MainBody from './edit.jsx';
-import Share from './share.jsx';
+import MainBody from './components/edit.jsx';
+import Share from './components/share.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory} from 'react-router';
 require('jquery');
 require("bootstrap-webpack");
-require('../styles/edit.css');
+require('./styles/edit.css');
+require('./styles/share.css');
 
 ReactDOM.render((
   <Router history={hashHistory}>
