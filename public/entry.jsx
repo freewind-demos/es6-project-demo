@@ -1,4 +1,4 @@
-import Mainbody from './edit.jsx';
+import MainBody from './edit.jsx';
 import Share from './share.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -9,7 +9,7 @@ require('../styles/edit.css');
 
 ReactDOM.render((
   <Router history={hashHistory}>
-    <Route path='/' component={Mainbody}/>
+    <Route path='/' component={MainBody}/>
     <Route path='/share' component={Share}/>
   </Router>
 ), document.getElementById('mainbody'))
