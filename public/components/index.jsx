@@ -9,24 +9,26 @@ class Caroucel extends React.Component {
           <div className="span8">
             <div id="caroucel">
               <div id="myCarousel" className="carousel slide">
-                <ol className="carousel-indicators list-inline">
-                  <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div className="carousel-inner">
-                  <div className="item active">
-                    <img src="images/index-show1.jpg" alt="First slide"/>
+                <div id="my">
+                  <ol className="carousel-indicators list-inline">
+                    <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <div className="carousel-inner">
+                    <div className="item active">
+                      <img className='carousel-img' src="images/index-show1.jpg" alt="First slide"/>
+                    </div>
+                    <div className="item">
+                      <img className="carousel-img" src="images/index-show2.jpg" alt="Second slide"/>
+                    </div>
+                    <div className="item">
+                      <img className="carousel-img" src="images/index-show3.jpg" alt="Third slide"/>
+                    </div>
                   </div>
-                  <div className="item">
-                    <img src="images/index-show2.jpg" alt="Second slide"/>
-                  </div>
-                  <div className="item">
-                    <img src="images/index-show3.jpg" alt="Third slide"/>
-                  </div>
+                  <a className="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+                  <a className="carousel-control right" href="#myCarousel" data-slide="next"></a>
                 </div>
-                <a className="carousel-control left" href="#myCarousel" data-slide="prev"></a>
-                <a className="carousel-control right" href="#myCarousel" data-slide="next"></a>
               </div>
             </div>
           </div>
