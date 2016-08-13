@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 class InformModule extends React.Component {
     render() {
         return (
-            <div class="container" id="outermost">
+            <div className="container" id="outermost">
                 <h2>个人信息</h2>
                 <form role="form" action="https://www.taobao.com/" method="get">
                     <div className="form-group">
