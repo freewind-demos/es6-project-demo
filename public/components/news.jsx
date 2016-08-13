@@ -7,7 +7,7 @@ class News extends React.Component{
       <div className="room">
         <div className="news">
 
-          <div id="myCarousel" className="carousel slide">
+          <div  className="carousel slide">
             <ol className="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
