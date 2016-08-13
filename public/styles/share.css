@@ -14,14 +14,34 @@ div.comment{
     margin-top: 30px;
     background: #f6f9f5;
     box-shadow: 2px 2px 5px;
-    border: 1px solid salmon;
+}
+
+div.vote-comment{
+    position: relative;
+    overflow: hidden;
+}
+
+.comment{
+    margin-bottom: 10px;
+}
+
+div.vote{
+    padding: 5px;
+    font-size: 24px;;
+    cursor: pointer;
+    color: salmon;
+    float: left;
 }
 
 div.comment .show-comments{
+    padding: 5px;
     float: right;
 }
 
 div.side {
-    border: 1px solid dodgerblue;
-    height: 200px;
+    position: fixed;
+    right: 100px;
+    padding: 8px;
+    box-shadow: 2px 2px 5px;
+    background: #f6f9f5;
 }

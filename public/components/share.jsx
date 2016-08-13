@@ -14,11 +14,18 @@ class Article extends React.Component {
             </div>
             <div className="comment">
               <h4>评论</h4>
-              <textarea cols="73" rows="8"></textarea>
-              <button className="show-comments">发表评论</button>
+              <div className="vote-comment">
+                <textarea cols="78" rows="8" className="comment"></textarea>
+                <div className="vote">
+                  <span className="glyphicon glyphicon-heart-empty" onClick=""></span>
+                </div>
+                <button className="show-comments">发表评论</button>
+              </div>
             </div>
           </div>
-          <div className="col-xs-3 col-xs-offset-1 side"></div>
+          <div className="col-xs-3 col-xs-offset-1 side">
+            <img className="img-responsive" src="../images/sidebar-img.jpg"/>
+          </div>
         </div>
       </div>
     )
