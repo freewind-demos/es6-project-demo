@@ -1,0 +1,35 @@
+
+.one {
+    width: 331px;
+    height: 430px;
+    border: 1px solid #ccc;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#myCarousel {
+    border: 1px solid black;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#menu {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#pictures {
+    width: 80%;
+    margin: 10px auto 30px;
+    overflow: hidden;
+}
+
+.love {
+    width: 331px;
+    height: 430px;
+}
