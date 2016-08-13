@@ -6,8 +6,8 @@ class MenuList extends React.Component {
     return (
       <header className="header">
         <ul className="list-inline menu">
-          <li><Link to="#">Home</Link></li>
-          <li><Link to="#">Share</Link></li>
+          <li><Link to="/index">Home</Link></li>
+          <li><Link to="/share">Share</Link></li>
           <li><Link to="/news">News</Link></li>
           <li><Link to="/remmedation">Recommendation</Link></li>
         </ul>
@@ -15,7 +15,7 @@ class MenuList extends React.Component {
           <ul className="list-inline">
             <li><Link to="#">登录</Link></li>
             <li><Link to="#">注册</Link></li>
-            <li><Link to="#">+</Link></li>
+            <li><Link to="/edit">+</Link></li>
           </ul>
         </div>
       </header>

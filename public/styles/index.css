@@ -1,0 +1,71 @@
+#logo {
+    width: 70px;
+    height: 50px;
+    float: left;
+}
+#caroucel { /*轮播  背景*/
+    position: relative;
+    top: 30px;
+    width: 85%;
+    height: 350px;
+    margin: auto;
+    margin-top:40px;
+    background: #ffffff;
+    box-shadow: 3px 3px #E0E0E0;
+}
+#myCarousel img {
+    width: 100%;
+    margin: auto;
+    height: 350px;
+}
+
+.share-pic {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+.share-pic .share-title {
+    width: 100%;
+    height: 540px;
+    font-size: 30px;
+    font-family: 'minijianshaoer518f7cd264bfa';
+}
+.share {
+    width: 100%;
+}
+.share-pic .share-left {
+    width: 29%;
+    float: left;
+    height: 500px;
+    border: solid 1px #e3e3e3;
+    background-color: #eeeeee;
+}
+.share-right {
+    width: 69%;
+    float: right;
+    height: 500px;
+    border: solid 1px #e3e3e3;
+    box-shadow: #8c8c8c 3px 5px 5px;
+}
+.share-left .left-row1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 26%;
+}
+.share-left .left-row2 {
+    margin-top: 30px;
+}
+.share-left .left-row2 span {
+    font-size: 18px;
+}
+.show {
+    height: 440px;
+    width: 320px;
+    float: left;
+    margin-left: 22px;
+}
+.first {
+    margin-left: 0px;
+}
