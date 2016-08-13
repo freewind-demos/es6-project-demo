@@ -9,7 +9,7 @@ class Caroucel extends React.Component {
           <div className="span8">
             <div id="caroucel">
               <div id="myCarousel" className="carousel slide">
-                <ol className="carousel-indicators">
+                <ol className="carousel-indicators list-inline">
                   <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
                   <li data-target="#myCarousel" data-slide-to="2"></li>
