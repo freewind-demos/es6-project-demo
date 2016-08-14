@@ -1,9 +1,9 @@
 ES6 Project Demo
 =================
 
-CI status: ![Build Status](https://travis-ci.org/js-demos/es6-project-demo.png?branch=master)
+CI status: ![Build Status](https://travis-ci.org/SRunner/es6-project-demo.svg?branch=master)
 
-A basic es6 project, which includes:
+A basic es6 project, which includes :
 
 1. webpack
 2. babel
