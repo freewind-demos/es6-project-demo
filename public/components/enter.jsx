@@ -22,11 +22,11 @@ class LogIn extends React.Component {
           <span className="sign"><Link to="#">新用户注册</Link></span>
         </div>
         <div className="edit-lines">
-          <ul>
-            <li className="style-type"><img src="my-images/people.png"/>
+          <ul className="style-type">
+            <li><img src="my-images/people.png"/>
               <input type="text" placeholder="请输入登录用户名"/>
             </li>
-            <li className="style-type"><img src="my-images/key.png"/>
+            <li><img src="my-images/key.png"/>
               <input type="password" placeholder="请输入密码"/>
             </li>
           </ul>
