@@ -1,0 +1,51 @@
+.name {
+    font-size: 1.5em;
+    font-family: "Microsoft YaHei";
+    margin-left: 50px;
+}
+.form-container {
+    border:1px solid #cccccc;
+    width: 331px;
+    height: 440px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 300px;
+    position: relative;
+}
+.enter-form {
+    margin-top: 50px;
+}
+.image-home {
+    margin-left: 150px;
+}
+
+.label-log {
+
+    font-size: 20px;
+    font-weight: 900;
+    border-left: 5px solid #00d0dc;
+    padding-left: 6px;
+}
+
+.edit-lines {
+    margin-top: 30px;
+}
+
+.style-type {
+    list-style-type: none;
+}
+.sign {
+    float: right;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.key {
+    float: right;
+    font-size: 13px;
+}
+
+.enter-button {
+    margin-left: 135px;
+    margin-top: 50px;
+}

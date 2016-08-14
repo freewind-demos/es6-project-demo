@@ -13,7 +13,7 @@ class MenuList extends React.Component {
         </ul>
         <div className="login">
           <ul className="list-inline">
-            <li><Link to="#">登录</Link></li>
+            <li><Link to="/enter">登录</Link></li>
             <li><Link to="#">注册</Link></li>
             <li><Link to="/edit">+</Link></li>
           </ul>
