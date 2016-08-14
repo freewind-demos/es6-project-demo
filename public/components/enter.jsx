@@ -5,7 +5,7 @@ class Logo extends React.Component {
   render() {
     return (
       <div>
-        <h3 className="name">Swag Drogue</h3>
+        <h3 className="web-name">Swag Drogue</h3>
         <hr/>
       </div>
     )
