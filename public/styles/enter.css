@@ -3,8 +3,9 @@
     font-family: "Microsoft YaHei";
     margin-left: 50px;
 }
+
 .form-container {
-    border:1px solid #cccccc;
+    border: 1px solid #cccccc;
     width: 331px;
     height: 440px;
     float: right;
@@ -12,9 +13,11 @@
     margin-right: 300px;
     position: relative;
 }
+
 .enter-form {
     margin-top: 50px;
 }
+
 .image-home {
     margin-left: 150px;
 }
@@ -34,13 +37,14 @@
 .style-type {
     list-style-type: none;
 }
+
 .sign {
     float: right;
     font-size: 15px;
     font-weight: 100;
 }
 
-.key {
+.key-word {
     float: right;
     font-size: 13px;
 }

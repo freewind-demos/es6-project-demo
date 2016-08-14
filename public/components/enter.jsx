@@ -31,15 +31,16 @@ class LogIn extends React.Component {
             </li>
           </ul>
         </div>
-        <div className="key">
-          <Link to= '#'>忘记密码?</Link>
+        <div className="key-word">
+          <Link to='#'>忘记密码?</Link>
         </div>
-        <button className="enter-button" type="button"><Link to="">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</Link></button>
+        <button className="enter-button" type="button"><Link to="">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</Link>
+        </button>
       </div>
     )
   }
 }
-class LogBody extends  React.Component {
+class LogBody extends React.Component {
   render() {
     return (
       <div>
