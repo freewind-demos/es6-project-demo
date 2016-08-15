@@ -16,26 +16,24 @@ class LogIn extends React.Component {
   render() {
     return (
       <div className="form-container">
-        <img src="my-images/home.png" className="image-home"/>
         <div className="enter-form">
           <span className="label-log">登录</span>
           <span className="sign"><Link to="#">新用户注册</Link></span>
         </div>
         <div className="edit-lines">
-          <ul className="style-type">
-            <li><img src="my-images/people.png"/>
-              <input type="text" placeholder="请输入登录用户名"/>
+          <ul className="list-unstyled">
+            <li className="people"><img src="my-images/people.png" />
+              <input type="text" placeholder="请输入登录用户名" className="user-name"/>
             </li>
-            <li><img src="my-images/key.png"/>
-              <input type="password" placeholder="请输入密码"/>
+            <li className="key"><img src="my-images/key.png" />
+              <input type="password" placeholder="请输入密码" className="user-password"/>
             </li>
           </ul>
         </div>
         <div className="key-word">
           <Link to='#'>忘记密码?</Link>
         </div>
-        <button className="enter-button" type="button"><Link to="">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</Link>
-        </button>
+        <Link to="#"><button type="button" className="btn btn-default">登录</button></Link>
       </div>
     )
   }
