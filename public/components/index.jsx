@@ -1,4 +1,3 @@
-import MenuList from './menu-list.jsx';
 import React from 'react';
 
 class Caroucel extends React.Component {
@@ -80,7 +79,6 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <MenuList/>
         <Caroucel/>
         <Show/>
         <Show/>
