@@ -1,4 +1,3 @@
-import MenuList from './menu-list.jsx';
 import React from 'react';
 
 class Article extends React.Component {
@@ -15,7 +14,7 @@ class Article extends React.Component {
             <div className="comment">
               <h4>评论</h4>
               <div className="vote-comment">
-                <textarea cols="78" rows="8" className="comment"></textarea>
+                <textarea cols="78" rows="8" className="comment-body"></textarea>
                 <div className="vote">
                   <span className="glyphicon glyphicon-heart-empty" onClick=""></span>
                 </div>
@@ -36,7 +35,6 @@ class Share extends React.Component {
   render() {
     return (
       <div>
-        <MenuList/>
         <Article/>
       </div>
     )

@@ -1,31 +1,31 @@
-div.article {
+.article {
     padding: 8px 20px;
     box-shadow: 2px 2px 5px;
     background: #f6f9f5;
 }
 
-div.article p {
+.article p {
     margin-top: 5px;
     font-size: 14px;
 }
 
-div.comment{
+.comment{
     padding: 5px 20px;
     margin-top: 30px;
     background: #f6f9f5;
     box-shadow: 2px 2px 5px;
 }
 
-div.vote-comment{
+.vote-comment{
     position: relative;
     overflow: hidden;
 }
 
-.comment{
+.comment-body{
     margin-bottom: 10px;
 }
 
-div.vote{
+.vote{
     padding: 5px;
     font-size: 24px;;
     cursor: pointer;
@@ -33,12 +33,12 @@ div.vote{
     float: left;
 }
 
-div.comment .show-comments{
+.comment .show-comments{
     padding: 5px;
     float: right;
 }
 
-div.side {
+.side {
     position: fixed;
     right: 100px;
     padding: 8px;

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router';
-import MenuList from './menu-list.jsx'
 
 
 class Roll extends React.Component {
@@ -111,11 +110,10 @@ class Like extends React.Component {
   }
 }
 
-class RemBody extends React.Component {
+class Recommendation extends React.Component {
   render() {
     return (
       <div>
-        <MenuList/>
         <Roll/>
         <Menu/>
         <Like/>
@@ -123,6 +121,6 @@ class RemBody extends React.Component {
     )
   }
 }
-export default RemBody
+export default Recommendation
 
 

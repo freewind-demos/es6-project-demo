@@ -1,8 +1,7 @@
-import MenuList from './menu-list.jsx';
 import React from 'react';
 import {Link} from 'react-router';
 
-class Editor extends React.Component {
+class EditorBody extends React.Component {
   render() {
     return (
       <div className="container-fluid wrapper">
@@ -26,15 +25,14 @@ class Editor extends React.Component {
   }
 }
 
-class MainBody extends React.Component {
+class Editor extends React.Component {
   render() {
     return (
       <div>
-        <MenuList/>
-        <Editor/>
+        <EditorBody/>
       </div>
     )
   }
 }
 
-export default MainBody;
+export default Editor;

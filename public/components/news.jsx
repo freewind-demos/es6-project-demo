@@ -1,7 +1,6 @@
-import MenuList from './menu-list.jsx'
 import React, {Component} from 'react';
 import {Link} from 'react-router';
-class News extends React.Component {
+class NewsBody extends React.Component {
   render() {
     return (
       <div className="room">
@@ -27,7 +26,7 @@ class News extends React.Component {
             <a className="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
           </div>
           <p >what`s news</p>
-          <ul className="list-inline aa">
+          <ul className="list-inline img-list">
             <li>我们是共产主义接班人<br/><Link to="#"><img width="170px" height="140px" src="pictures/Selection_003.png"/></Link>
             </li>
             <li>我们是共产主义接班人<br/><Link to="#"><img width="170px" height="140px" src="pictures/Selection_004.png"/></Link>
@@ -102,15 +101,14 @@ class News extends React.Component {
     )
   }
 }
-class NewsBody extends React.Component {
+class News extends React.Component {
   render() {
     return (
       <div>
-        <MenuList/>
-        <News/>
+        <NewsBody/>
       </div>
     )
   }
 }
 
-export default NewsBody;
+export default News;
