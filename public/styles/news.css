@@ -1,0 +1,34 @@
+.room {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 10px 0;
+
+}
+
+.news {
+    margin: 0 auto;
+    width: 950px;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.news ul {
+    width: 950px;
+    margin: 0 auto;
+    border: 2px solid slategray;
+}
+
+.img-list li {
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-left: 7.5px;
+    border: 1px solid silver;
+    margin-top: 7px;
+    font-family: "黑体";
+    font-weight: bold;
+    font-size: 15px;
+    font-style: oblique;
+
+}
